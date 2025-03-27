@@ -6,8 +6,8 @@ import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 const projects = [
   {
     id: 1,
-    title: "Sistema de Gestão Comercial",
-    description: "Plataforma completa para gestão de vendas e estoque",
+    title: "Landing Page",
+    description: "Web site com alta taxa de conversão de leads para clientes finais",
     tags: ["React", "Node.js", "MongoDB"],
     image: "/project1.jpg", // Substitua por imagens reais
     links: [
@@ -15,7 +15,28 @@ const projects = [
       { icon: <FaGithub />, url: "#" }
     ]
   },
-  // Adicione mais 2-3 projetos
+  {
+    id: 2,
+    title: "Api Logistic",
+    description: "Gerenciamento de pedidos para uma empresa de logística",
+    tags: ["React", "Node.js", "MongoDB", "Express", "TypeScript", "JSON Web Tokens", "Jest", "Nodemon", "Sequelize"],
+    image: "/project2.jpg", // Substitua por imagens reais
+    links: [
+      { icon: <FaExternalLinkAlt />, url: "#" },
+      { icon: <FaGithub />, url: "#" }
+    ]
+  },
+  {
+    id: 3,
+    title: "TikTok_Cutter-",
+    description: "Plataforma completa para criação de corte para videos virais",
+    tags: ["Python", "MoviePy", "OpenCV"],
+    image: "/project3.jpg", // Substitua por imagens reais
+    links: [
+      { icon: <FaExternalLinkAlt />, url: "#" },
+      { icon: <FaGithub />, url: "#" }
+    ]
+  }
 ];
 
 export default function PortfolioSection() {

@@ -1,3 +1,5 @@
+'use client'; // Adicione se estiver usando hooks
+
 import { motion } from 'framer-motion';
 
 interface SectionTitleProps {

@@ -26,7 +26,7 @@ export default function HeroSection() {
               Nossos Serviços <FaArrowRight />
             </a>
             <a 
-              href="https://wa.me/seunumero" 
+              href="https://wa.me/5579998807035" 
               className="bg-secondary hover:bg-accent text-white px-6 py-3 rounded-lg flex items-center justify-center gap-2 transition"
             >
               <FaWhatsapp size={20} /> Fale Conosco

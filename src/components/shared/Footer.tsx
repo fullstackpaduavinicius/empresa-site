@@ -23,9 +23,9 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Redes Sociais</h4>
             <div className="flex gap-4">
-              <a href="#" className="text-2xl hover:text-accent"><FaGithub /></a>
-              <a href="#" className="text-2xl hover:text-accent"><FaLinkedin /></a>
-              <a href="#" className="text-2xl hover:text-accent"><FaInstagram /></a>
+              <a href="https://github.com/fullstackpaduavinicius" className="text-2xl hover:text-accent"><FaGithub /></a>
+              <a href="https://www.linkedin.com/in/ivan-vin%C3%ADcius-832821330/" className="text-2xl hover:text-accent"><FaLinkedin /></a>
+              <a href="https://www.instagram.com/paduaviniciusdev" className="text-2xl hover:text-accent"><FaInstagram /></a>
             </div>
           </div>
         </div>

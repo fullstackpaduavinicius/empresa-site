@@ -19,18 +19,16 @@ export default function Header() {
           <FaLaptopCode size={28} />
           <span className="text-xl font-bold">DevSolutions</span>
         </Link>
+        <Link href="/about" onClick={() => setIsMenuOpen(false)} className="hover:text-accent py-2">Sobre</Link>
+          <Link href="/services" onClick={() => setIsMenuOpen(false)} className="hover:text-accent py-2">Serviços</Link>
+          <Link href="/portfolio" onClick={() => setIsMenuOpen(false)} className="hover:text-accent py-2">Portfólio</Link>
+          <Link href="/blog" onClick={() => setIsMenuOpen(false)} className="hover:text-accent py-2">Blog</Link>
+          <Link href="/contact" onClick={() => setIsMenuOpen(false)} className="hover:text-accent py-2">Contato</Link>
         
-        <nav className="hidden md:flex gap-6">
-          <Link href="/about" className="hover:text-accent transition">Sobre</Link>
-          <Link href="/services" className="hover:text-accent transition">Serviços</Link>
-          <Link href="/portfolio" className="hover:text-accent transition">Portfólio</Link>
-          <Link href="/blog" className="hover:text-accent transition">Blog</Link>
-          <Link href="/contact" className="hover:text-accent transition">Contato</Link>
-        </nav>
         
         <div className="flex items-center gap-4">
           <a 
-            href="https://wa.me/seunumero" 
+            href="https://wa.me/5579998807035" 
             className="bg-accent hover:bg-secondary text-white px-4 py-2 rounded flex items-center gap-2 hidden sm:flex"
           >
             <FaWhatsapp />
@@ -61,7 +59,7 @@ export default function Header() {
           <Link href="/contact" onClick={() => setIsMenuOpen(false)} className="hover:text-accent py-2">Contato</Link>
           
           <a 
-            href="https://wa.me/seunumero" 
+            href="https://wa.me/5579998807035" 
             className="bg-accent hover:bg-secondary text-white px-4 py-2 rounded flex items-center justify-center gap-2 mt-4"
             onClick={() => setIsMenuOpen(false)}
           >

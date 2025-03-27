@@ -5,9 +5,9 @@ import { FaQuoteLeft } from 'react-icons/fa';
 const testimonials = [
   {
     id: 1,
-    name: "Carlos Silva",
-    position: "CEO, Empresa X",
-    content: "O sistema desenvolvido revolucionou nossa operação, aumentando a eficiência em 40%.",
+    name: "Antonio de Pádua",
+    position: "CEO, Empresa Ideal Administração de imoveis",
+    content: "A Landing Page desenvolvida revolucionou nossa operação, aumentando a eficiência em 40% de capitação de novos clientes .",
     rating: 5
   },
   // Adicione mais 2-3 depoimentos
