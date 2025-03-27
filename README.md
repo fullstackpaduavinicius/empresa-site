@@ -1,6 +1,5 @@
 # DevSolutions - Soluções em Desenvolvimento Web
 
-![Banner do Projeto](public/banner.png) <!-- Adicione um banner atraente -->
 
 **Soluções digitais sob medida para impulsionar seu negócio**  
 Desenvolvimento web, automações e software personalizado com excelência técnica e design inovador.
