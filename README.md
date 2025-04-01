@@ -69,4 +69,4 @@ Distribuído sob a licença MIT. Veja LICENSE para mais informações.
 ✉️ Contato
 Pádua Vinicius - @paduaviniciusdev - fullstackpaduavinicius@gmail.com
 
-🔗 Link do Projeto: 
+🔗 Link do Projeto: https://devsolutions-bay.vercel.app/
